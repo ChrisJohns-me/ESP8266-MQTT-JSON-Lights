@@ -40,7 +40,8 @@ Hardware is your choice of course. My examples however only requires a 5v power 
 ## Example Home Assistant Configuration
 ```yaml
 light:
-  platform: mqtt_json
+  platform: mqtt
+  schema: json
   name: 'LED Lights'
   state_topic: 'light/led'
   command_topic: 'light/led/set'
