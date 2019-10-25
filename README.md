@@ -114,11 +114,11 @@ light:
 input_number:
   led_effect_speed:
     name: 'LED Effect Speed'
-    initial: 50 # This is the default speed
+    initial: 50
     mode: slider
-    min: 10  # ######################################
-    max: 1000 # Feel Free to adjust these as you like
-    step: 10 # ######################################
+    min: 1
+    max: 100
+    step: 10
 
 automation:
   - action:
@@ -132,8 +132,6 @@ automation:
       - platform: state
         entity_id: input_number.led_effect_speed
 ```
-
-> The speed of the lights will be slower the higher the slider value and faster the lower the value. Treat this more as a delay slider than a speed slider.
 
 ## Sample MQTT Payload
 ```json
