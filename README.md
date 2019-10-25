@@ -116,9 +116,9 @@ input_number:
     name: 'LED Effect Speed'
     initial: 50
     mode: slider
-    min: 1
+    min: 0
     max: 100
-    step: 10
+    step: 5
 
 automation:
   - action:
