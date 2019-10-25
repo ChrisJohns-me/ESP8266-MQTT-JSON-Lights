@@ -8,7 +8,7 @@ using namespace std;
 #define MQTT_USER "USERNAME"
 #define MQTT_PASSWORD "PASSWORD"
 #define MQTT_PORT 1883
-char *MQTT_STATE_TOPIC_PREFIX = "light/"; // e.g. led/<deviceName> and led/<deviceName>/set
+char *MQTT_STATE_TOPIC_PREFIX = "light/"; // e.g. light/led and light/led/set
 
 #define OTApassword "PASSWORD" //the password you will need to enter to upload remotely via the ArduinoIDE
 #define OTAport 8266
